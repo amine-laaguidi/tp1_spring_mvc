@@ -9,11 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94bd78b8-a7bb-41bd-93b7-1ebaa1fb35dc" name="Changes" comment="configure_IRVResolver">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/HelloController.java" afterDir="false" />
+    <list default="true" id="94bd78b8-a7bb-41bd-93b7-1ebaa1fb35dc" name="Changes" comment="Controller_Config">
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/connectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +72,24 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "spring.configuration.checksum": "13e5dcfb76f18ef266ae60cbd692f4cc",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.connectionTest.connectionViaHibernate">
+    <configuration name="connectionTest.connectionViaHibernate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp1_spring_mvc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="connectionTest" />
+      <option name="METHOD_NAME" value="connectionViaHibernate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -166,6 +178,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.connectionTest.connectionViaHibernate" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.70" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.connectionTest.connectionViaHibernate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -176,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674310112376</updated>
       <workItem from="1674310113848" duration="1314000" />
-      <workItem from="1674311545525" duration="4577000" />
+      <workItem from="1674311545525" duration="9400000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1674310605028</created>
@@ -192,15 +213,31 @@
       <option name="project" value="LOCAL" />
       <updated>1674314926357</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Controller_Config">
+      <created>1674317506992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674317506992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
+    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="configure_IRVResolver" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure_IRVResolver" />
+    <MESSAGE value="Controller_Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller_Config" />
   </component>
 </project>
