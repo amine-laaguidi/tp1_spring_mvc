@@ -4,6 +4,10 @@
   <groupId>org.example</groupId>
   <artifactId>tp1_spring_mvc</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>tp1_spring_mvc Maven Webapp</name>
   <url>http://maven.apache.org</url>
