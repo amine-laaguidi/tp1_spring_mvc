@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94bd78b8-a7bb-41bd-93b7-1ebaa1fb35dc" name="Changes" comment="Configure hibernate with testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PersonDaoImpl.java" afterDir="false" />
+    <list default="true" id="94bd78b8-a7bb-41bd-93b7-1ebaa1fb35dc" name="Changes" comment="Configuring DAO">
+      <change afterPath="$PROJECT_DIR$/src/main/java/metier/PersonMetier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metier/PersonMetierImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +80,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="metier" />
       <recent name="dao" />
     </key>
   </component>
@@ -204,7 +204,7 @@
       <workItem from="1674310113848" duration="1314000" />
       <workItem from="1674311545525" duration="10541000" />
       <workItem from="1674931545685" duration="1610000" />
-      <workItem from="1675866780269" duration="4528000" />
+      <workItem from="1675866780269" duration="9581000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1674310605028</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674322316294</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Configuring DAO">
+      <created>1675873455316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675873455316</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,11 +262,23 @@
     <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="configure_IRVResolver" />
     <MESSAGE value="Controller_Config" />
     <MESSAGE value="Configure hibernate with testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configure hibernate with testing" />
+    <MESSAGE value="Configuring DAO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring DAO" />
   </component>
 </project>
