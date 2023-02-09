@@ -115,7 +115,7 @@ public class PersonDaoImpl implements PersonDao {
     public List<Person> getAll() throws Exception {
         List<Person> people = new ArrayList<>();
         try{
-            if(session.isOpen())
+            if(session != null && session.isOpen())
                 session = factory.getCurrentSession();
             else
                 session = factory.openSession();
