@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
-@RequestMapping("/peoples")
+@RequestMapping("api/peoples")
 public class PersonController {
 
     private PersonMetier metier ;
@@ -43,8 +43,8 @@ public class PersonController {
           }
           this.ListPerson(model);
     }
-    @DeleteMapping("/people/{id}")
-    public void deletePost(@PathVariable Long id,Model model) {
+    @RequestMapping(value = "delete/{id}" ,method = RequestMethod.GET)
+    public void deletePost(@PathVariable(value="id") Long id,Model model) {
         try{
             Person person = metier.DeletePerson(metier.getPerson(id));
             model.addAttribute("delName",person.getName());

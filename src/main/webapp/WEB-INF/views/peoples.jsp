@@ -56,10 +56,7 @@
                     <td>${p.age}</td>
                     <td>${p.email}</td>
                     <td>
-                        <form action="#" th:action="@{/peoples}" th:method="delete" >
-                            <input type="submit" value="Delete" class="btn btn-danger"/>
-                            <input type="hidden" name="id" value="${person.id}" />
-                        </form>
+                        <a class="btn btn-danger" href="${pageContext.request.contextPath }/peoples/delete/${p.id}" onclick="return confirm('Are you sure?')">Delete</a>
                     </td>
                 </tr>
             </c:forEach>
